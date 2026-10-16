@@ -33,7 +33,7 @@ function run(raw) {
   switch (command) {
     case 'help': print('AVAILABLE COMMANDS\nabout      Meet the operator\ngithub     Show my GitHub address\nlinkedin   Connect on LinkedIn\nwork       Explore my background\nfortune    A small piece of wisdom\ntheme      Switch amber / green phosphor\ndate       The time in Amsterdam\nclear      A fresh start\nsecret     You didn’t see this one\n\nTip: ↑ / ↓ recalls your commands. Tab completes them.'); break;
     case 'about': print('Vincent Cohen — Amsterdam.\nProduct-focused software development, backend engineering, and team leadership.\nType work for my background or linkedin to connect.'); break;
-    case 'work': print('BuddeeHR — Senior Developer, full-time.\nJune 2022–present · Amsterdam.\nHR software · PHP / MySQL.\nLightspeed — backend development and team leadership.\nSEOshop — worked on the e-commerce platform.\nGrafisch Lyceum Amsterdam — 2007–2011.\nLanguages — Dutch and English.'); break;
+    case 'work': print('BuddeeHR — Senior Developer, full-time.\nJune 2022–present · Amsterdam.\nHR software · PHP / MySQL.\nLightspeed — backend development, team leadership, and Development Manager in Amsterdam.\nAround 30 direct reports, working closely with product management to help the teams deliver.\nSEOshop — worked on the e-commerce platform.\nGrafisch Lyceum Amsterdam — 2007–2011.\nLanguages — Dutch and English.'); break;
     case 'linkedin':
     case 'github': {
       const line = document.createElement('p');
